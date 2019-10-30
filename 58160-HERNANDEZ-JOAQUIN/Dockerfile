@@ -9,4 +9,4 @@ RUN pip install requests
 
 RUN pip install -r requirements.txt
 
-CMD ["python", "./tateti.py"]
+CMD ["python", "./test_tateti.py"]
