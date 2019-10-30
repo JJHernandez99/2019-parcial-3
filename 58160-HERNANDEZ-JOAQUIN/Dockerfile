@@ -1,6 +1,6 @@
 FROM python:3
 
-RUN git clone https://github.com/JJHernandez99/2019-parcial-3.git
+RUN git clone https://github.com/JJHernandez99/2019-parcial-3
 WORKDIR /2019-parcial-3/58160-HERNANDEZ-JOAQUIN
 
 RUN pip freeze > requirements.txt
